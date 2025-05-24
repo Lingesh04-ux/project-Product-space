@@ -135,10 +135,17 @@
 
 .footer-icons {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 0.5rem;
   width: 100px;
   height: auto;
   margin: 0px 20px 0px 0px;
+  cursor: pointer;
+}
+.footer-icons-img{
+  width: 40px;
+  height: 40px;
 }
 
 // .icon-btn {
@@ -153,6 +160,9 @@
   margin-top: 3rem;;
   position: relative;
 }
+
+// .footer-bottom p{
+// }
 
 .footer-bg-text {
   position: absolute;

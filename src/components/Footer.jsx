@@ -50,8 +50,8 @@ const Footer = () => {
                 <div className="footer-icons">
                     {/* <button className="icon-btn"><img src={img1} alt="" /></button>
                     <button className="icon-btn"><img src={linkedin} alt="" /></button> */}
-                    <img src={img1} alt="" />
-                    <img src={linkedin} alt="" />
+                    <img src={img1} alt="" className='footer-icons-img'/>
+                    <img src={linkedin} alt="" className='footer-icons-img'/>
                 </div>
                 </div>
             </div>
