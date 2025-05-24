@@ -1,0 +1,336 @@
+.students-case-studies-main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.students-case-studies-div{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  // padding: 20px;
+  justify-content: center;
+}
+.slider-container{
+  max-width: 100%;
+  // align-items: center;
+}
+
+.students-case-studies-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.students-case-studies-title-1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0px;
+  margin-top: 50px;
+  letter-spacing: -2px;
+  background: linear-gradient(to bottom, #585884, #14141E);
+  background-clip: auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 50px;
+}
+
+.students-case-studies-title-2{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: #A3A7B6;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.students-case-studies-title{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ justify-content: flex-start;
+}
+.nav-btn-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+// -----------------------------------------------------------------------------------------------------------------
+.slider-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  // padding: 20px;
+  box-sizing: border-box;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 10px 0;
+  flex: 1;
+  overflow:hidden;
+}
+
+.slider-card {
+  flex: 0 0 auto;
+//   width: 250px;
+//   height: 300px;
+  height: auto;
+  scroll-snap-align: start;
+  background-color: #ffffff;
+  border-radius: 12px;
+//   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nav-button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.nav-button:hover {
+  background: #155ab6;
+}
+
+.nav-button.left {
+  margin-right: 10px;
+}
+
+.nav-button.right {
+  margin-left: 10px;
+}
+
+// ----------------------------------------------------------------------------------------------------------------
+.card-content-arrow-icon{
+    width: 15px;
+    height: 15px;
+}
+
+.card-content-titles p{
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 600;
+    color: #1A1A1A;
+    word-wrap: break-word;
+}
+
+.card-content-titles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 50px;
+}
+
+.card-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    // align-items:;
+}
+
+.card-content-p{
+    font-size: 14px;
+    color: #667085;
+    margin: 0px;
+    padding: 5px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-content-titles-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.card-content-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card-content-btn button{
+    font-size: 12px;
+    font-weight: 540;
+    padding: 5px 5px;
+    border-radius: 7px;
+    border-color: rgba(1, 59, 77, 0.24);
+    background-color: #E7F7FC;
+    color: #24304C;
+}
+
+.card-content-icons-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.card-content-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #24304C;
+    font-weight: 500;
+    gap: 3px;
+}
+
+.card-content-icons p{
+    margin: 0px;
+    font-size: 13px;
+}
+//--------------------------------mobile responsive----------------------------------------------
+
+@media(max-width:1430px){
+
+  .students-case-studies-div{
+    max-width: 80%;
+  }
+}
+
+@media(max-width:620px){
+
+  .students-case-studies-div{
+    max-width: 100%;
+  }
+  .card-content{
+    width: 470px;
+    gap: 10px;
+  }
+}
+
+@media(max-width:600px){
+
+  .students-case-studies-div{
+    max-width: 80%;
+  }
+  .card-content{
+    width: 420px;
+    gap: 8px;
+  }
+}
+@media(max-width:535px){
+
+  // .students-case-studies-div{
+  //   max-width: 80%;
+  // }
+  .card-content{
+    width: 400px;
+    gap: 8px;
+  }
+}
+
+@media(max-width:500px){
+
+  .card-content{
+    width: 380px;
+    gap: 8px;
+  }
+}
+
+@media(max-width:480px){
+
+  .card-content{
+    width: 360px;
+    gap: 8px;
+  }
+  .students-case-studies-title-1 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .students-case-studies-title-2{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:455px){
+
+  .card-content{
+    width: 345px;
+    gap: 8px;
+  }
+}
+
+@media(max-width:435px){
+
+  .card-content{
+    width: 320px;
+    gap: 8px;
+  }
+}
+
+@media(max-width:400px){
+
+  .card-content{
+    width: 300px;
+    gap: 8px;
+  }
+}
+
+@media(max-width:475px){
+  .students-case-studies-title-1 {
+    font-size: 1.8rem
+}
+}
+
+@media(max-width:380px){
+
+  .card-content{
+    width: 280px;
+    gap: 8px;
+  }
+  .card-content-titles p {
+    font-size: 18px;
+    font-weight: 550;
+  }
+  .card-content-btn button {
+    font-size: 10px;
+  }
+}
+
+@media(max-width:350px){
+
+  .students-case-studies-title-1 {
+  font-size: 1.6rem
+  }
+  .card-content{
+    width: 260px;
+    gap: 8px;
+  }
+  .card-content-titles p {
+    font-size: 16px;
+    font-weight: 550;
+  }
+  .card-content-btn button {
+    font-size: 8px;
+  }
+}

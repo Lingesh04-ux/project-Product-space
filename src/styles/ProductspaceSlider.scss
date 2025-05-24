@@ -1,0 +1,119 @@
+@import './Global.scss';
+
+.productspace-slider-title > .productspace-slider-title-1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0px;
+    margin-top: 50px;
+    letter-spacing: -2px;
+
+    background: linear-gradient(to bottom,hsla(240, 22%, 10%, 0.85),#14141E);
+    background-clip: auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 50px;
+}
+.productspace-slider-title > .productspace-slider-content{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: #A3A7B6;
+    margin: 0px;
+}
+.productspace-slider-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.productspace-slider-rapper{
+    display: flex;
+    flex-direction: column;
+    align-items:start;   
+    justify-content: center;
+}
+.productspace-slider-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.image-slider {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+//   border: 1px solid black;
+}
+
+.indicator-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.indicator-buttons button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.indicator-buttons button.active {
+  background-color: #4f46e5;
+  color: #fff;
+}
+
+.slide-info {
+  margin-top: 20px;
+}
+.slider-image-contents p{
+    margin: 0px;
+    text-align: left;
+    gap: 30px;
+    cursor: pointer;
+}
+.slider-image-contents p{
+    color: hsla(222, 36%, 22%, 0.75); 
+}
+.slider-image-contents p:hover{
+    color: #24304C; 
+    transition: 0.3s all ease;
+}
+.slider-image-titles span{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.slider-image-contents > .slider-image-titles{
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s all ease;
+}
+
+@media(max-width:1140px){
+  .productspace-slider-rapper{
+    padding: 40px;
+  }
+}
+
+@media(max-width:970px){
+
+  .productspace-slider-rapper{
+    display: none;
+  }
+}

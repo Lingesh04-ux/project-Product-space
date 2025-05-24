@@ -1,0 +1,266 @@
+@import './Global.scss';
+
+.icons-div-1-1 > .name-85{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1D1F3D;
+}
+.icons-div-1-1 > .name-comp{
+    font-size: 1.5rem;
+    color: #575757;
+    font-weight: 100 !important;
+}
+.icons-div-1-2 > .name-57{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1D1F3D;
+}
+.icons-div-1-2 > .name-median{
+    font-size: 1.5rem;
+    color: #575757;
+    font-weight: 300;
+}
+.icons-div-2-1 > .name-80{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1D1F3D;
+}
+.icons-div-2-1 > .name-place{
+    font-size: 1.5rem;
+    color: #575757;
+    font-weight: 300;
+}
+.icons-div-2-2 > .name-1000{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1D1F3D;
+}
+.icons-div-2-2 > .name-alumin{
+    font-size: 1.5rem;
+    color: #575757;
+    font-weight: 300;
+}
+.icons-div p{
+    margin: 0px;
+}
+.icons-div-wrapper-1{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.icons-div-wrapper-2{
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+.icons-div{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+.career-sub-head-1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0px;
+    letter-spacing: -2px;
+
+    background: linear-gradient(to bottom,#585884,#14141E);
+    background-clip: auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 45px;
+}
+.career-sub-head-para{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #A3A7B6;
+    line-height: 30px;
+}
+.career-sub-heading-div-1 p{
+    margin: 0px;
+}
+.career-sub-heading-div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+// ---------------mobile view ------------------------
+.career-sub-heading-div-2 p{
+    margin: 0px;
+    display: none;
+}
+.career-sub-head-2-1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0px;
+    letter-spacing: -2px;
+    
+    background: linear-gradient(to bottom,#585884,#14141E);
+    background-clip: auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 35px;
+}
+.career-sub-head-2-2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #14141E;
+}
+.career-sub-head-2-para{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #A3A7B6;
+    line-height: 25px;
+}
+.career-sub-heading-div-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-career{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    padding: 20px;
+    margin: 60px 0px 0px 0px;
+}
+
+@media(max-width:1300px){
+    
+    .icons-div{
+        gap: 100px;
+    }
+    .icons-div-1-1 > .name-85{
+        font-size: 2rem;
+    }
+    .icons-div-1-1 > .name-comp{
+        font-size:1.3rem;
+    }
+    .icons-div-1-2 > .name-57{
+        font-size: 2rem;
+    }
+    .icons-div-1-2 > .name-median{
+        font-size: 1.3rem;
+    }
+    .icons-div-2-1 > .name-80{
+        font-size: 2rem;
+    }
+    .icons-div-2-1 > .name-place{
+        font-size: 1.3rem;
+    }
+    .icons-div-2-2 > .name-1000 {
+        font-size: 2rem;
+    }
+    .icons-div-2-2 > .name-alumin {
+        font-size: 1.3rem;
+    }
+    .career-sub-head-1{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .career-sub-head-para{
+        font-size: 1.4rem;
+    }
+    .main-career{
+        gap: 80px;
+        padding: 10px;
+    }
+}
+@media(max-width:1110px){
+
+    .tick-icon{
+        width: 70px;
+    }
+    .wallet-icon{
+        width: 70px;
+    }
+    .star-icon{
+        width: 70px;
+    }
+    .main-career{
+        gap:50px;
+    }
+    .career-sub-head-1{
+        font-size: 1.8rem;
+        line-height: 35px;
+    }
+    .career-sub-head-para {
+        font-size:1.2rem;
+    }
+    
+    .icons-div-1-1 > .name-85{
+        font-size: 1.8rem;
+    }
+    .icons-div-1-1 > .name-comp{
+        font-size:1.1rem;
+    }
+    .icons-div-1-2 > .name-57{
+        font-size: 1.8rem;
+    }
+    .icons-div-1-2 > .name-median{
+        font-size: 1.1rem;
+    }
+    .icons-div-2-1 > .name-80{
+        font-size: 1.8rem;
+    }
+    .icons-div-2-1 > .name-place{
+        font-size: 1.1rem;
+    }
+    .icons-div-2-2 > .name-1000 {
+        font-size: 1.8rem;
+        margin-top:20px ;
+    }
+    .icons-div-2-2 > .name-alumin {
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width:970px){
+    
+    .main-career{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content:right;
+    }
+
+    .career-sub-heading-div-1{
+        display: none;
+    }
+    .career-sub-heading-div-2 p{
+        display: flex;
+    }
+    
+}
+@media(max-width:440px){
+
+    .main-career{
+        padding: 10px;
+    }
+    .icons-div{
+        gap: 80px;
+    }
+    .career-sub-head-2-para {
+        line-height: 23px;
+    }
+    .career-sub-head-2-1{
+        font-size: 1.7rem;
+    }
+    .career-sub-head-2-para{
+        font-size: 1.1rem;
+    }
+    .icons-div-1-1 > .name-85{
+        font-size: 1.8rem;
+    }
+    .icons-div-1-1 > .name-85{
+        font-size: 1.8rem;
+    }
+    .icons-div-1-2 > .name-57{
+        font-size: 1.6rem;
+    }
+    .icons-div-2-2 > .name-1000 {
+        font-size: 1.8rem;
+    }
+}
