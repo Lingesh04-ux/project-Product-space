@@ -9,7 +9,7 @@ import Career from './components/Career';
 import './styles/Career.scss';
 import Brands from './components/Brands';
 import './styles/Brands.scss';
-import ProductspaceSlider from './components/productspaceSlider';
+import ProductspaceSlider from './components/ProductspaceSlider';
 import ProductspaceSliderMobile from './components/MobileView/ProductspaceSliderMobile';
 import './styles/MobileView/ProductspaceSliderMobile.scss'
 import ProgramsOffer from './components/ProgramsOffer';
